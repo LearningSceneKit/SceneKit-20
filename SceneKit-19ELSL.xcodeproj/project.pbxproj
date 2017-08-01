@@ -15,6 +15,11 @@
 		839FEEA51F2F19B7009DBC90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839FEEA31F2F19B7009DBC90 /* LaunchScreen.storyboard */; };
 		839FEEB01F2F19B7009DBC90 /* SceneKit_19ELSLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 839FEEAF1F2F19B7009DBC90 /* SceneKit_19ELSLTests.m */; };
 		839FEEBB1F2F19B7009DBC90 /* SceneKit_19ELSLUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 839FEEBA1F2F19B7009DBC90 /* SceneKit_19ELSLUITests.m */; };
+		839FEECB1F2F2256009DBC90 /* Fragment.shader in Resources */ = {isa = PBXBuildFile; fileRef = 839FEEC81F2F2256009DBC90 /* Fragment.shader */; };
+		839FEECC1F2F2256009DBC90 /* Geometry.shader in Resources */ = {isa = PBXBuildFile; fileRef = 839FEEC91F2F2256009DBC90 /* Geometry.shader */; };
+		839FEECD1F2F2256009DBC90 /* Lighting.shader in Resources */ = {isa = PBXBuildFile; fileRef = 839FEECA1F2F2256009DBC90 /* Lighting.shader */; };
+		83F965461F3048ED002E93DF /* foldingMap.dae in Resources */ = {isa = PBXBuildFile; fileRef = 83F965451F3048ED002E93DF /* foldingMap.dae */; };
+		83F965481F3048F5002E93DF /* male_large_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F965471F3048F5002E93DF /* male_large_01.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		839FEEB61F2F19B7009DBC90 /* SceneKit-19ELSLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SceneKit-19ELSLUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		839FEEBA1F2F19B7009DBC90 /* SceneKit_19ELSLUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneKit_19ELSLUITests.m; sourceTree = "<group>"; };
 		839FEEBC1F2F19B7009DBC90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		839FEEC81F2F2256009DBC90 /* Fragment.shader */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fragment.shader; sourceTree = "<group>"; };
+		839FEEC91F2F2256009DBC90 /* Geometry.shader */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Geometry.shader; sourceTree = "<group>"; };
+		839FEECA1F2F2256009DBC90 /* Lighting.shader */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lighting.shader; sourceTree = "<group>"; };
+		83F965451F3048ED002E93DF /* foldingMap.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = foldingMap.dae; sourceTree = "<group>"; };
+		83F965471F3048F5002E93DF /* male_large_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = male_large_01.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +127,11 @@
 		839FEE951F2F19B7009DBC90 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				83F965471F3048F5002E93DF /* male_large_01.png */,
+				83F965451F3048ED002E93DF /* foldingMap.dae */,
+				839FEEC81F2F2256009DBC90 /* Fragment.shader */,
+				839FEEC91F2F2256009DBC90 /* Geometry.shader */,
+				839FEECA1F2F2256009DBC90 /* Lighting.shader */,
 				839FEE961F2F19B7009DBC90 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -246,9 +261,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				839FEECC1F2F2256009DBC90 /* Geometry.shader in Resources */,
 				839FEEA51F2F19B7009DBC90 /* LaunchScreen.storyboard in Resources */,
+				839FEECB1F2F2256009DBC90 /* Fragment.shader in Resources */,
 				839FEEA21F2F19B7009DBC90 /* Assets.xcassets in Resources */,
 				839FEEA01F2F19B7009DBC90 /* Main.storyboard in Resources */,
+				83F965481F3048F5002E93DF /* male_large_01.png in Resources */,
+				83F965461F3048ED002E93DF /* foldingMap.dae in Resources */,
+				839FEECD1F2F2256009DBC90 /* Lighting.shader in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +527,7 @@
 				839FEEC11F2F19B7009DBC90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		839FEEC21F2F19B7009DBC90 /* Build configuration list for PBXNativeTarget "SceneKit-19ELSLTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +536,7 @@
 				839FEEC41F2F19B7009DBC90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		839FEEC51F2F19B7009DBC90 /* Build configuration list for PBXNativeTarget "SceneKit-19ELSLUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +545,7 @@
 				839FEEC71F2F19B7009DBC90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
