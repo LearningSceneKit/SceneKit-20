@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SceneKit-19ELSL.xcodeproj">
+      location = "self:/Users/shiwen/Documents/SceneKit/SceneKit-19ELSL/SceneKit-20ELSL.xcodeproj">
    </FileRef>
 </Workspace>
